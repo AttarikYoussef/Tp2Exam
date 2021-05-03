@@ -1,0 +1,18 @@
+<div class="row mt-5">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>nom</th>
+          <th>Description</th>
+          <th>status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let todo of todos">
+          <td>{{ todo.nom }}</td>
+          <td>{{ todo.description }}</td>
+          <td>{{ todo.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
